@@ -1,0 +1,169 @@
+
+body {
+  padding: 1rem;
+
+  font-family: Inter, sans-serif;
+}
+
+.mainLayout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+
+  background-color: #e3fff7;
+
+  padding: 10px;
+  border-radius: 22px;
+}
+
+.pcBranding {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.pcLogo {
+  height: 2.5rem;
+  border-radius: 12px;
+}
+
+.headIcon {
+  height: 1.25rem;
+}
+
+.headIconLink {
+  color: black;
+  padding: 0.5rem;
+  transition-duration: 0.4s;
+  border-radius: 10rem;
+}
+
+.headIconLink:hover {
+  background-color: #c9fff3;
+}
+
+.pcLink {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.headLink {
+  color: black;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+.headLink:active {
+  transform: scale(0.9);
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.titleGradient {
+  font-size: 4rem;
+  font-weight: bolder;
+  background: linear-gradient(90deg, rgba(0,71,255,1) 0%, rgba(0,255,177,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  margin: 5%;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+}
+
+.paraLink {
+  color: black;
+}
+
+.subtitle {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.devs {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.social {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #e3fff7;
+  width: fit-content;
+  border-radius: 1rem;
+  user-select: none;
+  transition-duration: 0.4s;
+}
+
+.social:active {
+  transform: scale(0.9);
+}
+
+.socialLink {
+  color: black;
+  text-decoration: none;
+  border-radius: 1rem;
+}
+
+.credit {
+  gap: 0.25rem;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  background-color: #e3fff7;
+  border-radius: 1rem;
+  user-select: none;
+  transition-duration: 0.4s;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* PROJECTS CSS */
