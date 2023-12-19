@@ -145,6 +145,7 @@ body {
   color: black;
   text-decoration: none;
   border-radius: 1rem;
+  width: fit-content;
 }
 
 .credit {
